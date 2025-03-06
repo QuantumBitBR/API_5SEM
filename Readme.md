@@ -1,7 +1,9 @@
-# API_5SEM
+![banner-strategy](https://github.com/user-attachments/assets/5d32b45c-3f98-4cfe-a346-21c691e2463f)
+
+## Objetivo
+> A Youtan, empresa de desenvolvimento de software, busca aprimorar a gestão de projetos por meio de uma plataforma integrada ao Taiga, permitindo a visualização de indicadores essenciais do fluxo de trabalho. O sistema oferecerá diferentes níveis de acesso para operadores, gestores e administradores, garantindo uma visão clara e organizada dos projetos. Além disso, contará com uma API para integração com outras ferramentas de gestão.
 
 ## Requisitos Funcionais e Não Funcionais
-
 | ID | Requisito | Descrição |
 | ----| --------| ------------|
 RF01  | Criar um dashboard com indicadores | O sistema deve exibir um dashboard contendo métricas importantes para análise de desempenho. |
