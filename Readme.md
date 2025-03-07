@@ -1,7 +1,23 @@
-![banner-strategy](https://github.com/user-attachments/assets/5d32b45c-3f98-4cfe-a346-21c691e2463f)
+![stratify](https://github.com/user-attachments/assets/21165edb-00a7-42bb-9fbc-997461174033)
 
-## Objetivo
+<div align=center>
+     <a href="https://github.com/QuantumBitBR/API_5SEM_FRONT">Front-end |</a>
+     <a href="https://github.com/QuantumBitBR/API_5SEM_BACK">Back-end |</a>
+     <a href="#sobre">Sobre |</a>
+     <a href="#equipe">Contribuidores |</a>
+     <a href="#requisitos">Requisitos Funcionais e Não Funcionais |</a>
+     <a href="#backlog">Product Backlog |</a>
+     <a href="#cronograma">Cronograma de Entregas |</a>
+     <a href="#burndown">Gráfico de Burndown |</a>
+     <a href="#tecnologias">Tecnologias</a>
+</div>
+
+<span id="sobre">
+  
+## Sobre
 > A Youtan, empresa de desenvolvimento de software, busca aprimorar a gestão de projetos por meio de uma plataforma integrada ao Taiga, permitindo a visualização de indicadores essenciais do fluxo de trabalho. O sistema oferecerá diferentes níveis de acesso para operadores, gestores e administradores, garantindo uma visão clara e organizada dos projetos. Além disso, contará com uma API para integração com outras ferramentas de gestão.
+
+<span id="equipe"> 
 
 ## Contribuidores
 
@@ -15,8 +31,13 @@ Jhony Santos | Product Owner | <a href="https://github.com/santosjhony12"><img s
 João Matheus | Developer | <a href="https://github.com/JoaoMatheusLamao"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a><a href="https://www.linkedin.com/in/joaomatheuslamao/"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a> |<img src="https://avatars.githubusercontent.com/u/77554165?v=4" width="60">|
 Julio Freitas | Developer | <a href="https://github.com/JulioFreitas07"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a><a href="https://www.linkedin.com/in/julio-freitas-415b73216/"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a> |<img src="https://avatars.githubusercontent.com/u/127301327?v=4" width="60">|
 
+<span id="requisitos"> 
 
 ## Requisitos Funcionais e Não Funcionais
+<details>
+
+<summary>Clique aqui</summary>
+
 | ID | Requisito | Descrição |
 | ----| --------| ------------|
 RF01  | Criar um dashboard com indicadores | O sistema deve exibir um dashboard contendo métricas importantes para análise de desempenho. |
@@ -32,6 +53,11 @@ RNF01 |Documentação da API |	A API deve ser documentada de maneira clara e det
 RNF02 | Responsividade |	O sistema deve ser responsivo e acessível em diferentes dispositivos. |
 RNF03 | Manual do Usuário |	Deve ser fornecido um manual para orientar os usuários na utilização do sistema. |
 RNF04 | Modelagem do Banco de Dados |	Criar um modelo de banco de dados eficiente para armazenar as informações necessárias. |
+
+</details>
+
+
+<span id="backlog"> 
 
 ## Backlog do Produto
 
@@ -51,3 +77,67 @@ RNF04 | Modelagem do Banco de Dados |	Criar um modelo de banco de dados eficient
 | US12 | Como admin, desejo cadastrar, editar e remover usuários para controlar o acesso à ferramenta e gerenciar permissões de uso. | RF09, RFN01, RFN04 | 12 | 3 |
 | US13 | Como admin, desejo cadastrar e remover projetos para organizar melhor as atividades e garantir que apenas projetos relevantes estejam disponíveis no sistema. | RF09, RFN01, RFN04 | 13 | 3 |
 
+
+<span id="cronograma">
+
+## Cronograma de Entregas
+
+Sprint| Início| Entrega  
+--- | --- | ---
+Kick off do projeto| 27/02/2025| -------------
+Sprint 1| 10/03/2025 | 30/03/2025 
+Sprint 2| 07/04/2025| 27/04/2025
+Sprint 3| 05/05/2025| 25/05/2025 
+Feira de Soluções| 29/05/2025 | -------------
+
+
+## Resumo de Sprints
+
+<details>
+     
+<summary>Sprint 1</summary>
+
+</details>
+
+<details>
+
+<summary>Sprint 2</summary>
+
+</details>
+
+<details>
+
+<summary>Sprint 3</summary>
+
+</details>
+
+
+<span id="burndown">
+
+## Burndown
+
+<details>
+     
+<summary>Sprint 1</summary>
+
+</details>
+
+<details>
+
+<summary>Sprint 2</summary>
+
+</details>
+
+<details>
+
+<summary>Sprint 3</summary>
+
+</details>
+
+
+
+<span id="tecnologias">
+  
+## Tecnologias Utilizadas
+
+![Readme TechHorizon 2S](https://github.com/user-attachments/assets/ee44423e-1620-468f-9583-52e0b82a4155)
