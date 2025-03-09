@@ -1,0 +1,25 @@
+services:
+  postgres-quantum:
+    image: postgres
+    hostname: postgres-quantum
+    container_name: postgres-quantum
+    environment:
+      POSTGRES_USER: taiga
+      POSTGRES_PASSWORD: taiga
+      POSTGRES_DB: dbo
+      PGDATA: /data/postgres
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgresql:/var/lib/postgresql
+      - postgresql_data:/var/lib/postgresql/data
+    networks:
+      - quantum-db-network
+
+volumes:
+  postgresql:
+  postgresql_data:
+
+networks:
+    quantum-db-network:
+        driver: bridge
