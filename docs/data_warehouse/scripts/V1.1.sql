@@ -5,7 +5,7 @@ CREATE TABLE Dim_Tag (
 
 CREATE TABLE Dim_projeto (
     id BIGSERIAL PRIMARY KEY,
-    name VARCHAR(255) NOT NULL
+    nome VARCHAR(255) NOT NULL
 );
 
 CREATE TABLE Dim_status (
