@@ -61,21 +61,19 @@ RNF04 | Modelagem do Banco de Dados |	Criar um modelo de banco de dados eficient
 
 ## Backlog do Produto
 
-| **ID**  | **Descrição** | **ID Requisito** | **Prioridade** | **Sprint** |
-|---------|-------------|----------------|--------------|---------|
-| US01 | Como usuário, desejo visualizar os indicadores de etiqueta para identificar a quantidade de cards associados a cada categoria e facilitar a análise de organização. | RF01, RF02, RFN01 | 1 | 1 |
-| US02 | Como usuário, desejo visualizar os indicadores de cards relacionados a períodos para acompanhar a evolução da criação e finalização dos cards ao longo do tempo. | RF01, RF03, RF04, RFN01 | 2 | 1 |
-| US03 | Como usuário, desejo visualizar os indicadores de cards relacionados a status para entender a distribuição dos cards dentro do fluxo do Kanban. | RF01, RF05, RFN01 | 3 | 1 |
-| US04 | Como usuário, desejo visualizar os indicadores de tempo gasto por card para analisar a eficiência do fluxo de trabalho e identificar possíveis gargalos. | RF01, RF06, RFN01 | 4 | 1 |
-| US05 | Como usuário admin e gestor, desejo visualizar os indicadores de cards por colaborador para acompanhar a produtividade individual e distribuir melhor as tarefas. | RF01, RF07, RFN01 | 5 | 2 |
-| US06 | Como usuário, quero filtrar os indicadores do dashboard por período, para visualizar informações relevantes de datas específicas e facilitar a análise temporal dos dados. | RF01, RF03, RF04 | 6 | 2 |
-| US07 | Como usuário, desejo visualizar os indicadores de retrabalho para identificar tarefas que precisaram ser refeitas e melhorar a eficiência dos processos. | RF01, RF08, RFN01 | 7 | 2 |
-| US08 | Como usuário Operador, desejo visualizar somente os meus indicadores para acompanhar minha própria produtividade e desempenho. | RF01, RFN01, RFN02, RFN03 | 8 | 2 |
-| US09 | Como usuário Gestor, desejo visualizar os meus indicadores e do meu time para a gestão eficiente dos meus projetos e alocação de recursos. | RF01, RFN01, RFN02, RFN03 | 9 | 2 |
-| US10 | Como usuário admin, desejo visualizar os indicadores de todos os times, para obter uma visão global do desempenho e tomar decisões estratégicas. | RF01, RFN01, RFN02, RFN03 | 10 | 3 |
-| US11 | Como usuário, desejo realizar autenticação com meu usuário e senha, para garantir segurança aos dados e restringir o acesso apenas a usuários autorizados. | RF09, RFN01 | 11 | 3 |
-| US12 | Como admin, desejo cadastrar, editar e remover usuários para controlar o acesso à ferramenta e gerenciar permissões de uso. | RF09, RFN01, RFN04 | 12 | 3 |
-| US13 | Como admin, desejo cadastrar e remover projetos para organizar melhor as atividades e garantir que apenas projetos relevantes estejam disponíveis no sistema. | RF09, RFN01, RFN04 | 13 | 3 |
+| **ID**  | **Descrição** | **ID Requisito** | **Prioridade** | **Sprint** | **Status** |
+|---------|-------------|----------------|--------------|---------|--------|
+| US01 | Como usuário, desejo visualizar os indicadores de etiqueta para identificar a quantidade de cards associados a cada categoria e facilitar a análise de organização. | RF01, RF02, RFN01 | Alta | 1 | Concluído |
+| US02 | Como usuário, desejo visualizar os indicadores de cards relacionados a períodos para acompanhar a evolução da criação e finalização dos cards ao longo do tempo. | RF01, RF03, RF04, RFN01 | Alta | 1 | Concluído |
+| US03 | Como usuário, desejo visualizar os indicadores de cards relacionados a status para entender a distribuição dos cards dentro do fluxo do Kanban. | RF01, RF05, RFN01 | Alta | 1 | Concluído |
+| US04 | Como usuário, desejo visualizar os indicadores de tempo gasto por card para analisar a eficiência do fluxo de trabalho e identificar possíveis gargalos. | RF01, RF06, RFN01 | Alta | 1 | Concluído |
+| US05 | Como usuário admin e gestor, desejo visualizar os indicadores de cards por colaborador para acompanhar a produtividade individual e distribuir melhor as tarefas. | RF01, RF07, RFN01 | Média | 2 | A fazer |
+| US06 | Como usuário admin, desejo visualizar os indicadores de todos os times, para obter uma visão global do desempenho e tomar decisões estratégicas. | RF01, RFN01, RFN02, RFN03 | Média | 2 | A fazer |
+| US07 | Como usuário, desejo realizar autenticação com meu usuário e senha, para garantir segurança aos dados e restringir o acesso apenas a usuários autorizados. | RF09, RFN01 | Baixa | 2 | A fazer |
+| US08 | Como admin, desejo cadastrar, editar e remover usuários para controlar o acesso à ferramenta e gerenciar permissões de uso. | RF09, RFN01, RFN04 | Baixa | 2 | A fazer |
+| US09 | Como usuário, desejo visualizar os indicadores de retrabalho para identificar tarefas que precisaram ser refeitas e melhorar a eficiência dos processos. | RF01, RF08, RFN01 | Média | 3 | A fazer |
+| US10 | Como usuário Operador, desejo visualizar somente os meus indicadores para acompanhar minha própria produtividade e desempenho. | RF01, RFN01, RFN02, RFN03 | Média | 3 | A fazer |
+| US11 | Como usuário Gestor, desejo visualizar os meus indicadores e do meu time para a gestão eficiente dos meus projetos e alocação de recursos. | RF01, RFN01, RFN02, RFN03 | Média | 3 | A fazer |
 
 
 <span id="cronograma">
@@ -96,6 +94,15 @@ Feira de Soluções| 29/05/2025 | -------------
 <details>
      
 <summary>Sprint 1</summary>
+
+Nesta sprint, foram concluídas quatro user stories relacionadas à visualização de indicadores para análise de organização e eficiência no fluxo de trabalho.
+
+- US01: Implementação de indicadores de etiqueta, permitindo identificar a quantidade de cards por categoria.
+- US02: Desenvolvimento de indicadores temporais para acompanhar a criação e finalização de cards ao longo do tempo.
+- US03: Inclusão de indicadores de status para análise da distribuição dos cards no fluxo do Kanban.
+- US04: Adição de indicadores de tempo gasto por card, possibilitando a identificação de gargalos no fluxo de trabalho.
+
+Todas as histórias foram priorizadas como alta e entregues dentro do prazo.
 
 </details>
 
@@ -119,6 +126,9 @@ Feira de Soluções| 29/05/2025 | -------------
 <details>
      
 <summary>Sprint 1</summary>
+
+![image](https://github.com/user-attachments/assets/dcd2b055-b42a-4c73-83bd-e15342e771b7)
+
 
 </details>
 
