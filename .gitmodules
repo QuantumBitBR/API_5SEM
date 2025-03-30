@@ -1,0 +1,9 @@
+[submodule "repo-etl"]
+	path = repo-etl
+	url = https://github.com/QuantumBitBR/API_5SEM_ETL.git
+[submodule "repo-back-end"]
+	path = repo-back-end
+	url = https://github.com/QuantumBitBR/API_5SEM_BACK.git
+[submodule "repo-front-end"]
+	path = repo-front-end
+	url = https://github.com/QuantumBitBR/API_5SEM_FRONT.git
