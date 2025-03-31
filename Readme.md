@@ -145,8 +145,12 @@ Todas as histórias foram priorizadas como alta e entregues dentro do prazo.
 </details>
 
 ## Arquivos de Documentação 
-<a href="https://fatecspgov-my.sharepoint.com/:x:/r/personal/jhony_souza_fatec_sp_gov_br/Documents/Gest%C3%A3o%20de%20Escopo%20do%20Projeto%20-%205SEM.xlsx?d=w93d0ebd2b7de4892a0f9a2281216243b&csf=1&web=1&e=Z4zR3d"/>Planilha de Controle de Escopo do Projeto</a>
-<a href="https://www.figma.com/design/BvY58DMpMFxHHxTV2lwLh0/Stratify-WF?node-id=0-1&t=6DLJv8Jw2PygwCs3-1">WireFrames</a>
+
+- <a href="https://fatecspgov-my.sharepoint.com/:x:/r/personal/jhony_souza_fatec_sp_gov_br/Documents/Gest%C3%A3o%20de%20Escopo%20do%20Projeto%20-%205SEM.xlsx?d=w93d0ebd2b7de4892a0f9a2281216243b&csf=1&web=1&e=Z4zR3d"/>Planilha de Controle de Escopo do Projeto</a>
+- <a href="https://www.figma.com/design/BvY58DMpMFxHHxTV2lwLh0/Stratify-WF?node-id=0-1&t=6DLJv8Jw2PygwCs3-1">WireFrames</a>
+- <a href="https://github.com/QuantumBitBR/API_5SEM/wiki/Regras-de-Desenvolvimento">Regras de Desenvolvimento</a>
+- <a href="https://github.com/QuantumBitBR/API_5SEM/wiki/Manual-de-Usu%C3%A1rio">Manual de Usuário</a>
+- <a href="https://github.com/QuantumBitBR/API_5SEM/wiki/DevOps-%E2%80%90-Database">Devops - Database</a>
 
 <span id="tecnologias">
   
