@@ -8,7 +8,7 @@
      <a href="#requisitos">Requisitos Funcionais e Não Funcionais |</a>
      <a href="#backlog">Product Backlog |</a>
      <a href="#cronograma">Cronograma de Entregas |</a>
-     <a href="#burndown">Gráfico de Burndown |</a>
+     <a href="#resumo">Resumo das Sprints |</a>
      <a href="#tecnologias">Tecnologias</a>
 </div>
 
@@ -101,6 +101,7 @@ Sprint 2| 07/04/2025| 27/04/2025
 Sprint 3| 05/05/2025| 25/05/2025 
 Feira de Soluções| 29/05/2025 | -------------
 
+<span id="resumo">
 
 ## Resumo de Sprints
 
@@ -117,31 +118,11 @@ Nesta sprint, foram concluídas quatro user stories relacionadas à visualizaç�
 
 Todas as histórias foram priorizadas como alta e entregues dentro do prazo.
 
-</details>
-
-<details>
-
-<summary>Sprint 2</summary>
-
-</details>
-
-<details>
-
-<summary>Sprint 3</summary>
-
-</details>
-
-
-<span id="burndown">
-
-## Burndown
-
-<details>
-     
-<summary>Sprint 1</summary>
+### Burndown
 
 ![image](https://github.com/user-attachments/assets/dcd2b055-b42a-4c73-83bd-e15342e771b7)
 
+<a href="https://github.com/QuantumBitBR/API_5SEM/blob/main/docs/apresenta%C3%A7%C3%B5es/Sprint01-Review.pptx">Apresentação da Sprint Review</a>
 
 </details>
 
@@ -156,6 +137,7 @@ Todas as histórias foram priorizadas como alta e entregues dentro do prazo.
 <summary>Sprint 3</summary>
 
 </details>
+
 
 ## Arquivos de Documentação 
 
@@ -164,9 +146,6 @@ Todas as histórias foram priorizadas como alta e entregues dentro do prazo.
 - <a href="https://github.com/QuantumBitBR/API_5SEM/wiki/Regras-de-Desenvolvimento">Regras de Desenvolvimento</a>
 - <a href="https://github.com/QuantumBitBR/API_5SEM/wiki/Manual-de-Usu%C3%A1rio">Manual de Usuário</a>
 - <a href="https://github.com/QuantumBitBR/API_5SEM/wiki/DevOps-%E2%80%90-Database">Devops - Database</a>
-
-## Apresentações das Reviews
-- <a href="https://github.com/QuantumBitBR/API_5SEM/blob/main/docs/apresenta%C3%A7%C3%B5es/Sprint01-Review.pptx">Sprint 1</a>
 
 <span id="tecnologias">
   
