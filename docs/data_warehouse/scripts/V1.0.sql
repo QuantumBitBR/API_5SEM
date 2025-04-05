@@ -13,15 +13,13 @@ CREATE TABLE Dim_status (
     tipo VARCHAR(255) NOT NULL
 );
 
-CREATE TABLE Fato_Progresso_user_stories (
+CREATE TABLE Fato_tag_user_story (
     id BIGSERIAL PRIMARY KEY,
     id_tag BIGINT,
     id_projeto BIGINT,
-    id_status BIGINT,
     quantidade_user_stories BIGINT,
     FOREIGN KEY (id_tag) REFERENCES Dim_Tag(id),
-    FOREIGN KEY (id_projeto) REFERENCES Dim_projeto(id),
-    FOREIGN KEY (id_status) REFERENCES Dim_status(id)
+    FOREIGN KEY (id_projeto) REFERENCES Dim_projeto(id)
 );
 CREATE TABLE FATO_STATUS_USER_STORY(
 	ID BIGSERIAL PRIMARY KEY,
