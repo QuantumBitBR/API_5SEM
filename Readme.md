@@ -8,14 +8,27 @@
      <a href="#requisitos">Requisitos Funcionais e Não Funcionais |</a>
      <a href="#backlog">Product Backlog |</a>
      <a href="#cronograma">Cronograma de Entregas |</a>
-     <a href="#burndown">Gráfico de Burndown |</a>
+     <a href="#resumo">Resumo das Sprints |</a>
      <a href="#tecnologias">Tecnologias</a>
 </div>
 
 <span id="sobre">
   
-## Sobre
-> A Youtan, empresa de desenvolvimento de software, busca aprimorar a gestão de projetos por meio de uma plataforma integrada ao Taiga, permitindo a visualização de indicadores essenciais do fluxo de trabalho. O sistema oferecerá diferentes níveis de acesso para operadores, gestores e administradores, garantindo uma visão clara e organizada dos projetos. Além disso, contará com uma API para integração com outras ferramentas de gestão.
+## Problema
+<p>A Youtan, empresa de desenvolvimento de software, busca aprimorar a gestão de projetos utilizando a plataforma Taiga. Atualmente, a equipe enfrenta desafios na visualização de indicadores essenciais do fluxo de trabalho, dificultando o acompanhamento do progresso dos projetos e a tomada de decisões estratégicas. A ausência de um painel centralizado que apresente métricas relevantes, como quantidade de cards criados em um período, tempo médio de finalização, e distribuição de tarefas entre os membros da equipe, torna a gestão menos eficiente e menos transparente.
+</p>
+<p>
+Além disso, a diferenciação de acesso por níveis de usuário não é nativamente oferecida da maneira necessária, o que dificulta a exibição de informações personalizadas para operadores, gestores e administradores.
+</p>
+
+## Solução
+<p>Desenvolver uma plataforma integrada ao banco de dados do Taiga para consolidar e exibir indicadores estratégicos sobre o andamento dos projetos. Essa solução permitirá que diferentes perfis de usuários tenham acesso a informações específicas, garantindo uma visão clara e organizada:</p>
+
+- Operador: poderá visualizar métricas relacionadas aos cards sob sua responsabilidade.
+- Gestor: poderá visualizar métricas dos cards sob sua responsabilidade e do seu time.
+- Admin: terá acesso a todas as métricas de todos os times.
+<p>A plataforma fornecerá dashboards interativos para facilitar o acompanhamento dos projetos, tornando a gestão mais eficiente e transparente.
+</p>
 
 <span id="equipe"> 
 
@@ -88,6 +101,7 @@ Sprint 2| 07/04/2025| 27/04/2025
 Sprint 3| 05/05/2025| 25/05/2025 
 Feira de Soluções| 29/05/2025 | -------------
 
+<span id="resumo">
 
 ## Resumo de Sprints
 
@@ -104,31 +118,11 @@ Nesta sprint, foram concluídas quatro user stories relacionadas à visualizaç�
 
 Todas as histórias foram priorizadas como alta e entregues dentro do prazo.
 
-</details>
-
-<details>
-
-<summary>Sprint 2</summary>
-
-</details>
-
-<details>
-
-<summary>Sprint 3</summary>
-
-</details>
-
-
-<span id="burndown">
-
-## Burndown
-
-<details>
-     
-<summary>Sprint 1</summary>
+### Burndown
 
 ![image](https://github.com/user-attachments/assets/dcd2b055-b42a-4c73-83bd-e15342e771b7)
 
+<a href="https://github.com/QuantumBitBR/API_5SEM/blob/main/docs/apresenta%C3%A7%C3%B5es/Sprint01-Review.pptx">Apresentação da Sprint Review</a>
 
 </details>
 
@@ -143,6 +137,7 @@ Todas as histórias foram priorizadas como alta e entregues dentro do prazo.
 <summary>Sprint 3</summary>
 
 </details>
+
 
 ## Arquivos de Documentação 
 
