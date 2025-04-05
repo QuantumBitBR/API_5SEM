@@ -14,8 +14,21 @@
 
 <span id="sobre">
   
-## Sobre
-> A Youtan, empresa de desenvolvimento de software, busca aprimorar a gestão de projetos por meio de uma plataforma integrada ao Taiga, permitindo a visualização de indicadores essenciais do fluxo de trabalho. O sistema oferecerá diferentes níveis de acesso para operadores, gestores e administradores, garantindo uma visão clara e organizada dos projetos. Além disso, contará com uma API para integração com outras ferramentas de gestão.
+## Problema
+<p>A Youtan, empresa de desenvolvimento de software, busca aprimorar a gestão de projetos utilizando a plataforma Taiga. Atualmente, a equipe enfrenta desafios na visualização de indicadores essenciais do fluxo de trabalho, dificultando o acompanhamento do progresso dos projetos e a tomada de decisões estratégicas. A ausência de um painel centralizado que apresente métricas relevantes, como quantidade de cards criados em um período, tempo médio de finalização, e distribuição de tarefas entre os membros da equipe, torna a gestão menos eficiente e menos transparente.
+</p>
+<p>
+Além disso, a diferenciação de acesso por níveis de usuário não é nativamente oferecida da maneira necessária, o que dificulta a exibição de informações personalizadas para operadores, gestores e administradores.
+</p>
+
+## Solução
+<p>Desenvolver uma plataforma integrada ao banco de dados do Taiga para consolidar e exibir indicadores estratégicos sobre o andamento dos projetos. Essa solução permitirá que diferentes perfis de usuários tenham acesso a informações específicas, garantindo uma visão clara e organizada:</p>
+
+- Operador: poderá visualizar métricas relacionadas aos cards sob sua responsabilidade.
+- Gestor: poderá visualizar métricas dos cards sob sua responsabilidade e do seu time.
+- Admin: terá acesso a todas as métricas de todos os times.
+<p>A plataforma fornecerá dashboards interativos para facilitar o acompanhamento dos projetos, tornando a gestão mais eficiente e transparente.
+</p>
 
 <span id="equipe"> 
 
@@ -151,6 +164,9 @@ Todas as histórias foram priorizadas como alta e entregues dentro do prazo.
 - <a href="https://github.com/QuantumBitBR/API_5SEM/wiki/Regras-de-Desenvolvimento">Regras de Desenvolvimento</a>
 - <a href="https://github.com/QuantumBitBR/API_5SEM/wiki/Manual-de-Usu%C3%A1rio">Manual de Usuário</a>
 - <a href="https://github.com/QuantumBitBR/API_5SEM/wiki/DevOps-%E2%80%90-Database">Devops - Database</a>
+
+## Apresentações das Reviews
+- <a href="https://github.com/QuantumBitBR/API_5SEM/blob/main/docs/apresenta%C3%A7%C3%B5es/Sprint01-Review.pptx">Sprint 1</a>
 
 <span id="tecnologias">
   
