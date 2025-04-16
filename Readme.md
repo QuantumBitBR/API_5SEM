@@ -73,19 +73,20 @@ RNF04 | Modelagem do Banco de Dados |	Criar um modelo de banco de dados eficient
 
 ## Backlog do Produto
 
-| Rank  | **Descrição** | **ID Requisito** | **Prioridade** | **Estimativa** | **Sprint** | **Status** |
-|---------|-------------|----------------|--------------|---------|--------|-------|
-| 1 | Como usuário, desejo visualizar os indicadores de etiqueta para identificar a quantidade de cards associados a cada categoria e facilitar a análise de organização. | RF01, RFN01 | Alta | 7 | 1 | Concluído |
-| 2 | Como usuário, desejo visualizar os indicadores de cards relacionados a períodos para acompanhar a evolução da criação e finalização dos cards ao longo do tempo. | RF02, RF03, RFN01 | Alta | 9 | 1 | Concluído |
-| 3 | Como usuário, desejo visualizar os indicadores de cards relacionados a status para entender a distribuição dos cards dentro do fluxo do Kanban. | RF04, RFN01 | Alta | 6 |1 | Concluído |
-| 4 | Como usuário, desejo visualizar os indicadores de tempo gasto por card para analisar a eficiência do fluxo de trabalho e identificar possíveis gargalos. | RF05, RFN01 | Alta | 8 | 1 | Concluído |
-| 5 | Como usuário admin e gestor, desejo visualizar os indicadores de cards por colaborador para acompanhar a produtividade individual e distribuir melhor as tarefas. | RF06, RFN01 | Média | 6 | 2 | A fazer |
-| 6 | Como usuário admin, desejo visualizar os indicadores de todos os times, para obter uma visão global do desempenho e tomar decisões estratégicas. | RF01, RF02, RF03, RFN01, RFN02, RFN03 | Média | 7 | 2 | A fazer |
-| 7 | Como usuário, desejo realizar autenticação com meu usuário e senha, para garantir segurança aos dados e restringir o acesso apenas a usuários autorizados. | RF08, RFN01 | Baixa | 5 | 2 | A fazer |
-| 8 | Como admin, desejo cadastrar, editar e remover usuários para controlar o acesso à ferramenta e gerenciar permissões de uso. | RF08, RFN01, RFN04 | Baixa | 4 | 2 | A fazer |
-| 9 | Como usuário, desejo visualizar os indicadores de retrabalho para identificar tarefas que precisaram ser refeitas e melhorar a eficiência dos processos. | RF07, RFN01 | Média | 9 | 3 | A fazer |
-| 10 | Como usuário Operador, desejo visualizar somente os meus indicadores para acompanhar minha própria produtividade e desempenho. | RF08, RFN01, RFN02, RFN03 | Média | 4 | 3 | A fazer |
-| 11 | Como usuário Gestor, desejo visualizar os meus indicadores e do meu time para a gestão eficiente dos meus projetos e alocação de recursos. | RF08, RFN01, RFN02, RFN03 | Média | 7 | 3 | A fazer |
+Rank | Prioridade | User Story | Estimativa | Sprint | Requisitos Relacionados
+|---------|-------------|----------------|--------------|---------|--------|
+1 | Alta | Como usuário, desejo visualizar os indicadores de etiqueta para identificar a quantidade de cards associados a cada categoria e facilitar a análise de organização. | 7 | 1 | RF01, RF02, RFN01
+2 | Alta | Como usuário, desejo visualizar os indicadores de cards relacionados a períodos para acompanhar a evolução da criação e finalização dos cards ao longo do tempo. | 9 | 1 | RF01, RF03, RF04, RFN01
+3 | Alta | Como usuário, desejo visualizar os indicadores de cards relacionados a status para entender a distribuição dos cards dentro do fluxo do Kanban. | 6 | 1 | RF01, RF05, RFN01
+4 | Alta | Como usuário, desejo visualizar os indicadores de tempo gasto por card para analisar a eficiência do fluxo de trabalho e identificar possíveis gargalos. | 8 | 1 | RF01, RF06, RFN01
+5 | Média | Como usuário admin e gestor, desejo visualizar os indicadores por colaborador para acompanhar a produtividade individual e distribuir melhor as tarefas. | 6 | 2 | RF01, RF07, RFN01
+6 | Média | Como usuário admin, desejo visualizar os indicadores de todos os times, para obter uma visão global do desempenho e tomar decisões estratégicas. | 7 | 2 | RF01, RFN01, RFN02, RFN03
+7 | Baixa | Como usuário, desejo realizar autenticação com meu usuário e senha, para garantir segurança aos dados e restringir o acesso apenas a usuários autorizados. | 9 | 2 | RF09, RFN01
+8 | Baixa | Como admin, desejo gerenciar as contas de usuário para controlar o acesso à ferramenta e gerenciar permissões de uso. | 6 | 2 | RF09, RFN01, RFN04
+9 | Média | Como usuário Operador, desejo visualizar somente os meus indicadores para acompanhar minha própria produtividade e desempenho. | 4 | 2 | RF01, RFN01, RFN02, RFN03
+10 | Baixa | Como usuário, desejo visualizar os indicadores de retrabalho para identificar tarefas que precisaram ser refeitas e melhorar a eficiência dos processos. | 5 | 3 | RF01, RF08, RFN01
+11 | Baixa | Como usuário, desejo visualizar a quantidade de user stories presentes por sprint, para poder identificar a evolução do volume de trabalho planejado ao longo do tempo e apoiar a análise da capacidade da equipe. | 7 | 3 | RFN01, RFN04, RFN02, RF03
+12 | Baixa | Como usuário, desejo exportar os dados com indicadores calculados através de um arquivo CSV para poder realizar análises externas, compartilhar informações ou manter registros offline. | 4 | 3 | RFN01, RFN04
 
 
 <span id="cronograma">
