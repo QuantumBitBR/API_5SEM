@@ -62,7 +62,7 @@ Identifica e contabiliza os cards que regrediram no fluxo (ex: da coluna “Conc
     - **Gestor**: acessa indicadores de sua equipe;
     - **Admin**: tem acesso irrestrito a todos os dados do sistema.
 
-9. **API para Integração com Ferramentas como Taiga**
+9. **API para Integração com Ferramentas como Taiga**:
 Disponibiliza uma API RESTful documentada, permitindo a integração da plataforma com a ferramenta de gestão Taiga. A API possibilita a extração e envio de dados, promovendo interoperabilidade e expansão do uso da solução.
 
 ## 4. Requisitos Não Funcionais
@@ -72,46 +72,121 @@ Disponibiliza uma API RESTful documentada, permitindo a integração da platafor
 - Banco de dados modelado de forma eficiente e escalável
 
 ## 5. Arquitetura do Sistema
-**Frontend:** Vue.js  
+**Frontend:** HTML, CSS, JavaScript, TypeScript, Vue.js, PrimeVue  
 **Backend:** Spring Boot  
+**ETL:** Python  
 **Banco de Dados:** PostgreSQL  
 **Integrações:** Taiga (via API REST)  
-**Segurança:** Autenticação com controle de permissões baseado em perfil
+**Segurança:** Spring Security
 
-## 6. Modelagem de Dados
-Inclui tabelas como:  
-- `usuarios` (perfil, nome, e-mail)
-- `cards` (id, título, status, data criação, data finalização, etiquetas)
-- `movimentacoes` (card_id, status_antigo, status_novo, data_movimentacao)
+## 6.1 Modelagem de Dados
+A modelagem de dados do sistema foi elaborada com foco em representar de forma clara e eficiente as principais entidades envolvidas na gestão de projetos com base na plataforma Taiga. A estrutura visa garantir a integridade das informações, a facilidade de consulta para geração de indicadores e a escalabilidade para possíveis evoluções do sistema.
+O modelo inclui tabelas responsáveis por armazenar informações sobre usuários, cards (tarefas), etiquetas, movimentações no fluxo Kanban, entre outros. Além disso, contempla o histórico das alterações de status, essencial para o cálculo de tempo médio, retrabalhos e demais métricas
+Abaixo, é apresentado o Diagrama Entidade-Relacionamento (DER) com a visão geral das tabelas e suas relações, seguido da descrição individual das principais entidades envolvidas.
 
-## 7. Casos de Uso / Fluxos do Usuário
-- Visualizar indicadores por status, período, colaborador, etiqueta
-- Filtrar e exportar gráficos
-- Acessar conforme nível de permissão
-- Realizar login seguro
+![V2 0](https://github.com/user-attachments/assets/fe0ed8b6-bfd6-4ad8-a7cc-56260d56b679)
 
-## 8. Interface do Usuário
+## 6.2 Descrição das tabelas de Dados
+
+### DIM_TAG
+Nome da Coluna | Descrição | Chave Primária (PK) | Chave Estrangeira (FK) | Pode ser Nula
+-- | -- | -- | -- | --
+id | Identificador único da tag | Sim | - | Não
+nome | Nome da tag | Não | - | Não
+
+### DIM_PROJETO
+Nome da Coluna | Descrição | Chave Primária (PK) | Chave Estrangeira (FK) | Pode ser Nula
+-- | -- | -- | -- | --
+id | Identificador único do projeto | Sim | - | Não
+nome | Nome do projeto | Não | - | Não
+
+### DIM_STATUS
+Nome da Coluna | Descrição | Chave Primária (PK) | Chave Estrangeira (FK) | Pode ser Nula
+-- | -- | -- | -- | --
+id | Identificador único do status | Sim | - | Não
+tipo | Tipo do status | Não | - | Não
+
+### DIM_USER_STORY
+Nome da Coluna | Descrição | Chave Primária (PK) | Chave Estrangeira (FK) | Pode ser Nula
+-- | -- | -- | -- | --
+id | Identificador único da user story | Sim | - | Não
+assunto | Assunto da user story | Não | - | Sim
+criado_em | Data de criação | Não | - | Sim
+finalizado_em | Data de finalização | Não | - | Sim
+bloqueado | Se a user story está bloqueada | Não | - | Sim
+encerrado | Se a user story foi encerrada | Não | - | Sim
+data_limite | Data limite | Não | - | Sim
+id_status | Status da user story | Não | FK -> DIM_STATUS(id) | Não
+id_taiga | ID da user story no Taiga | Não | - | Não
+id_usuario | Usuário responsável | Não | FK -> DIM_USUARIO(id) | Não
+id_projeto | Projeto da user story | Não | FK -> DIM_PROJETO(id) | Não
+
+### DIM_USUARIO
+Nome da Coluna | Descrição | Chave Primária (PK) | Chave Estrangeira (FK) | Pode ser Nula
+-- | -- | -- | -- | --
+id | Identificador único do usuário | Sim | - | Não
+nome | Nome do usuário | Não | - | Sim
+email | E-mail do usuário | Não | - | Sim
+senha | Senha do usuário | Não | - | Sim
+role | Papel do usuário | Não | - | Sim
+
+### DIM_PERIODO
+Nome da Coluna | Descrição | Chave Primária (PK) | Chave Estrangeira (FK) | Pode ser Nula
+-- | -- | -- | -- | --
+id | Identificador do período | Sim | - | Não
+nome | Nome do período | Não | - | Sim
+
+### RELACIONAMENTO_TAG_USER_STORY
+Nome da Coluna | Descrição | Chave Primária (PK) | Chave Estrangeira (FK) | Pode ser Nula
+-- | -- | -- | -- | --
+id_status | Status associado | Não | FK -> DIM_STATUS(id) | Não
+id_user_story | User story associada | Não | FK -> DIM_USER_STORY(id) | Não
+
+### RELACIONAMENTO_PROJETO_USUARIO
+Nome da Coluna | Descrição | Chave Primária (PK) | Chave Estrangeira (FK) | Pode ser Nula
+-- | -- | -- | -- | --
+id_usuario | Usuário associado | Não | FK -> DIM_USUARIO(id) | Não
+id_projeto | Projeto associado | Não | FK -> DIM_PROJETO(id) |  
+
+
+## 7. Interface do Usuário
+```
+ADICIONAR PRINTS DAS TELAS
+```
 - Tela de login
 - Dashboard principal com gráficos interativos
 - Filtros de data, status, colaborador, etiqueta
 - Layout adaptável para desktop e mobile
 
-## 9. Testes Realizados
+## 8. Testes Realizados
+```
+ADICIONAR PRINCIPAIS TESTES - DEVOPS JULIO
+```
 - Testes manuais nas funcionalidades principais
 - Validação dos cálculos dos indicadores
 - Testes de responsividade em diferentes dispositivos
 
-## 10. Planejamento e Execução
+## 09. Planejamento e Execução
+```
+ADICIONAR CONSIDERAÇÕES RELACIONADOS AO SCRUM
+```
 - Metodologia Scrum
 - Entregas divididas por Sprints com reuniões de planejamento e retrospectiva
 - Principais entregas da Sprint 1: US01 a US04 (indicadores principais)
 
-## 11. Manual do Usuário
+## 10. Manual do Usuário
+```
+ADICIONAR LINKS - JHONY
+```
 1. Acesse o sistema via navegador web
 2. Faça login com suas credenciais
 3. Navegue pelo dashboard e aplique os filtros desejados
 4. Exporte relatórios se necessário
 
-## 12. Considerações Finais
-O projeto entregou uma base sólida para acompanhamento de indicadores em ambientes ágeis. Com possibilidade de expansão para outros sistemas (Trello, Jira), o produto pode se tornar uma ferramenta abrangente de gestão visual.
+## 11. Considerações Finais
+O desenvolvimento deste projeto resultou em uma base sólida para o acompanhamento de indicadores de desempenho em ambientes ágeis. A plataforma permite transformar dados brutos, oriundos do Taiga, em informações visuais e analíticas que apoiam a tomada de decisão e promovem uma gestão mais eficiente dos projetos.
+
+Além de contemplar funcionalidades essenciais, como controle de acesso por níveis, visualização de métricas por status, tempo e colaboradores, a solução foi construída com uma arquitetura flexível e escalável, preparada para futuras evoluções. A separação entre frontend, backend e banco de dados facilita a manutenção e testes.
+
+A aplicação web desenvolvida também se destaca por sua interface responsiva, acessível por diferentes dispositivos, e por oferecer uma experiência de uso clara e objetiva, tanto para operadores quanto para gestores e administradores.
 
