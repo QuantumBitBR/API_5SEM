@@ -33,7 +33,7 @@ Além disso, a diferenciação de acesso por níveis de usuário não é nativam
 ## Diretório de Documentação 
 
 - <a href="https://github.com/QuantumBitBR/API_5SEM/wiki/Documenta%C3%A7%C3%A3o-do-Produto"/>Documentação do Produto</a>
-- <a href="https://github.com/QuantumBitBR/API_5SEM/wiki/Regras-de-Desenvolvimento">Padrões de Desenvolvimento</a>
+- <a href="hhttps://github.com/QuantumBitBR/API_5SEM/wiki/Padr%C3%B5es-de-Desenvolvimento">Padrões de Desenvolvimento</a>
 - <a href="https://github.com/QuantumBitBR/API_5SEM/wiki/DevOps-%E2%80%90-Requirement-Tracking">Devops - Requirement Tracking</a>
 - <a href="https://github.com/QuantumBitBR/API_5SEM/wiki/DevOps-%E2%80%90-Database">Devops - Database</a>
 - <a href="https://github.com/QuantumBitBR/API_5SEM/wiki/DevOps-%E2%80%90-Testes-Unit%C3%A1rios">Devops - Testes Unitários</a>
