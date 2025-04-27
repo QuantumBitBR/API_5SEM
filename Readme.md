@@ -36,11 +36,8 @@ Além disso, a diferenciação de acesso por níveis de usuário não é nativam
 - <a href="https://github.com/QuantumBitBR/API_5SEM/wiki/Regras-de-Desenvolvimento">Padrões de Desenvolvimento</a>
 - <a href="https://github.com/QuantumBitBR/API_5SEM/wiki/DevOps-%E2%80%90-Requirement-Tracking">Devops - Requirement Tracking</a>
 - <a href="https://github.com/QuantumBitBR/API_5SEM/wiki/DevOps-%E2%80%90-Database">Devops - Database</a>
-- <a href="/">Devops - Testes</a>
-- <a href="/">Devops - QA</a>
-- <a href="/">Devops - Documentação</a>
-- <a href="/">Devops - Continuous Integration</a>
-- <a href="/">Devops - Deploy</a>
+- <a href="https://github.com/QuantumBitBR/API_5SEM/wiki/DevOps-%E2%80%90-Testes-Unit%C3%A1rios">Devops - Testes Unitários</a>
+- <a href="https://github.com/QuantumBitBR/API_5SEM/wiki/DevOps-%E2%80%90-Documenta%C3%A7%C3%A3o">Devops - Documentação</a>
 
 <span id="requisitos"> 
 
@@ -96,48 +93,11 @@ RNF04 | Modelagem do Banco de Dados | O sistema deverá contar com uma modelagem
 
 ## Sprints Backlog
 
-<details>
-     
-<summary>Sprint 1</summary>
+| **Sprint** | **Link** |
+|-----|-----|
+| 01 | <a href="https://github.com/QuantumBitBR/API_5SEM/wiki/Sprint-01" >Clique aqui</a>
+| 02 | <a href="https://github.com/QuantumBitBR/API_5SEM/wiki/Sprint-02" >Clique aqui</a>
 
-Nesta sprint, foram concluídas quatro user stories com foco na visualização de indicadores essenciais para a análise da organização e eficiência no fluxo de trabalho da equipe. Essas funcionalidades visam proporcionar maior visibilidade sobre o andamento dos projetos, apoiando a tomada de decisões e a identificação de melhorias no processo.
-
-- US01 – Indicadores por Etiqueta:
-Foi implementado um painel que exibe a quantidade de cards categorizados por etiqueta. Essa funcionalidade permite identificar com clareza quais categorias de atividades possuem maior volume de tarefas, contribuindo para a priorização e melhor distribuição do trabalho.
-
-- US02 – Indicadores Temporais:
-Desenvolveu-se a visualização de indicadores relacionados ao tempo de criação e finalização dos cards. Os dados podem ser visualizados por períodos pré-definidos (último dia, última semana, último mês e outros), permitindo acompanhar a evolução da produtividade da equipe ao longo do tempo.
-
-- US03 – Indicadores por Status:
-Foram incluídos gráficos que mostram a distribuição atual dos cards por status, com base nas colunas do fluxo Kanban (como “A Fazer”, “Em Andamento” e “Concluído”). Esse recurso facilita o monitoramento do progresso das atividades e a identificação de possíveis gargalos em determinadas etapas do processo.
-
-- US04 – Indicadores de Tempo Médio por Card:
-Adicionou-se um cálculo do tempo médio gasto por card desde sua criação até a finalização. Esse indicador é essencial para analisar a eficiência do time e identificar pontos de atraso ou necessidade de revisão no processo.
-
-Todas as histórias acima foram priorizadas como de alta importância pelo time de produto, considerando seu impacto direto na usabilidade e valor analítico da plataforma. As entregas foram concluídas dentro do prazo previsto da sprint, com os critérios de aceitação atendidos e homologadas pelo Product Owner.
-
-### Burndown
-
-![image](https://github.com/user-attachments/assets/dcd2b055-b42a-4c73-83bd-e15342e771b7)
-
-### Processos
-- Durante o desenvolvimento, nos deparamos com alguns desafios. Um dos principais foi um questionamento levantado junto ao cliente em relação à user story US02. Devido ao curto espaço de tempo disponível, houve impedimentos na execução das tasks relacionadas a essa história, o que resultou em atraso e uma alta demanda concentrada na última semana da sprint. Além disso, por se tratar de um novo grupo, todos ainda estavam em processo de adaptação, criando hábitos de trabalho e se ajustando à nova cultura do time, o que impactou diretamente em algumas entregas do projeto. Diante desse cenário, realizamos uma reunião de alinhamento para discutir os pontos identificados. Foram levantadas soluções e definidas ações preventivas para evitar que os mesmos problemas ocorram nas próximas sprints.
-
-<a href="https://github.com/QuantumBitBR/API_5SEM/blob/main/docs/apresenta%C3%A7%C3%B5es/Sprint01-Review.pptx">Apresentação da Sprint Review</a>
-
-</details>
-
-<details>
-
-<summary>Sprint 2</summary>
-
-</details>
-
-<details>
-
-<summary>Sprint 3</summary>
-
-</details>
 
 
 <span id="cronograma">
