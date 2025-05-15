@@ -132,15 +132,16 @@ Para facilitar o acompanhamento do progresso, a tabela a seguir mostra como cada
 | RF03    |      |  X   |      |      |      |      |      |      |      |      |      |      |
 | RF04    |      |      |  X   |      |      |      |      |      |      |      |      |      |
 | RF05    |      |      |      |  X   |      |      |      |      |      |      |      |      |
-| RF06    |      |      |      |      |  X   |   X  |      |      |      |      |      |      |
+| RF06    |      |      |      |      |  X   |  X   |      |      |      |      |      |      |
 | RF07    |      |      |      |      |  X   |      |      |  X   |      |      |      |      |
 | RF08    |      |      |      |      |      |      |  X   |  X   |  X   |  X   |      |      |
 | RF09    |      |      |      |      |      |      |      |      |      |      |  X   |      |
 | RF10    |      |      |      |      |      |      |      |      |      |      |      |  X   |
-| RNF01   |  X   |  X   |  X   |  X   |  X   |   X  |  X   |  X   |  X   |  X   |  X   |  X   |
-| RNF02   |      |      |      |      |      |      |      |      |      |      |      |      |
-| RNF03   |      |      |      |      |      |      |      |      |      |      |      |      |
+| RNF01   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |
+| RNF02   |  X   |  X   |  X   |  X   |  X   |  X   |      |  X   |      |  X   |  X   |      |
+| RNF03   |  X   |  X   |  X   |  X   |  X   |  X   |      |  X   |      |  X   |  X   |      |
 | RNF04   |      |      |      |      |      |      |      |      |      |      |      |      |
+
 
 
 Esse processo de organização permite que o desenvolvimento seja claro e bem direcionado, com **Requisitos**, **User Stories** e **Tasks** alinhados e rastreados de forma eficiente no **Jira**.
