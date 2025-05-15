@@ -127,19 +127,20 @@ Para facilitar o acompanhamento do progresso, a tabela a seguir mostra como cada
 
 | RF \ US | US01 | US02 | US03 | US04 | US05 | US06 | US07 | US08 | US09 | US10 | US11 | US12 |
 |---------|------|------|------|------|------|------|------|------|------|------|------|------|
-| RF01    |  X   |      |      |      |      |  X   |      |      |      |      |      |  X   |
-| RF02    |      |  X   |      |      |      |      |  X   |      |      |      |      |      |
-| RF03    |      |  X   |      |      |      |      |      |      |  X   |      |      |  X   |
-| RF04    |      |      |  X   |      |      |      |      |  X   |      |      |  X   |      |
-| RF05    |      |      |      |  X   |  X   |      |      |      |      |  X   |      |      |
-| RF06    |      |      |      |      |  X   |  X   |  X   |      |      |      |  X   |      |
-| RF07    |      |      |      |      |  X   |      |  X   |  X   |      |      |      |  X   |
-| RF08    |      |      |      |      |      |      |  X   |  X   |  X   |  X   |  X   |  X   |
-| RF09    |      |      |      |      |      |      |      |      |  X   |      |  X   |      |
-| RF10    |      |      |      |      |      |      |      |  X   |      |      |      |  X   |
+| RF01    |  X   |      |      |      |      |      |      |      |      |      |      |  X   |
+| RF02    |      |  X   |      |      |      |      |      |      |      |      |      |      |
+| RF03    |      |  X   |      |      |      |      |      |      |      |      |      |  X   |
+| RF04    |      |      |  X   |      |      |      |      |  X   |      |      |      |      |
+| RF05    |      |      |      |  X   |      |      |      |      |      |  X   |      |      |
+| RF06    |      |      |      |      |  X   |  X   |      |      |      |      |  X   |      |
+| RF07    |      |      |      |      |  X   |      |      |  X   |      |      |      |  X   |
+| RF08    |      |      |      |      |      |      |  X   |  X   |  X   |  X   |      |      |
+| RF09    |      |      |      |      |      |      |      |      |      |      |  X   |      |
+| RF10    |      |      |      |      |      |      |      |      |      |      |      |  X   |
 | RNF01   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |
-| RNF02   |  X   |  X   |      |      |      |      |      |      |      |      |      |      |
-| RNF03   |      |      |      |      |      |      |      |  X   |      |      |  X   |      |
-| RNF04   |      |      |      |      |      |      |      |      |  X   |  X   |      |      |
+| RNF02   |      |  X   |      |      |      |      |      |      |      |      |      |      |
+| RNF03   |      |      |      |      |      |      |      |  X   |      |      |      |      |
+| RNF04   |      |      |      |      |      |      |      |      |  X   |      |      |      |
+
 
 Esse processo de organização permite que o desenvolvimento seja claro e bem direcionado, com **Requisitos**, **User Stories** e **Tasks** alinhados e rastreados de forma eficiente no **Jira**.
