@@ -144,27 +144,3 @@ Para facilitar o acompanhamento do progresso, a tabela a seguir mostra como cada
 
 
 Esse processo de organização permite que o desenvolvimento seja claro e bem direcionado, com **Requisitos**, **User Stories** e **Tasks** alinhados e rastreados de forma eficiente no **Jira**.
-
-### Pre-commit
-
-O pre-commit é uma ferramenta configurada para executar hooks automáticos antes que um commit seja efetuado. Ela é fundamental para reforçar a qualidade e a consistência do código desde o início do processo de versionamento.
-
-Esses hooks incluem:
-
-   - Correção automática de formatação (ex: prettier, black);
-
-   - Verificação de padrões e erros comuns (eslint, flake8);
-
-   - Prevenção de commits com falhas de estilo, espaços em branco desnecessários ou código não padronizado.
-
-Principais benefícios:
-
-   - Redução de erros triviais antes mesmo de subir o código;
-
-   - Padronização entre todos os membros da equipe;
-
-   - Agilidade nas revisões de código;
-
-   - Adoção de boas práticas de forma automatizada e constante.
-
-Essa prática complementa o uso do Jira e do GitHub, fortalecendo a rastreabilidade e o controle de qualidade do projeto.
