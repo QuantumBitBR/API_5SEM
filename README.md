@@ -138,6 +138,9 @@ Esse processo nos permite:
 
 Com o objetivo de facilitar a compreensão, o fluxo do processo é ilustrado no diagrama abaixo.
 
+![image](https://github.com/user-attachments/assets/c0f4b93a-7bf8-43ea-852b-acbacec6fbbf)
+
+
 ## Relação entre Requisitos e User Stories
 
 Para facilitar o acompanhamento do progresso, a tabela a seguir mostra como cada Requisito está relacionado à User Story correspondente. Isso permite entender facilmente como os Requisitos são atendidos pelas User Stories, seguindo a organização do Jira.
