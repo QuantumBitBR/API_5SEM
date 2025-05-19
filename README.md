@@ -78,4 +78,93 @@ O sistema deverá disponibilizar um manual do usuário completo, acessível dent
 ---
 
 ### R14 – Modelagem do Banco de Dados  
+<<<<<<< HEAD
 O banco de dados do sistema deverá ser modelado de forma eficiente e otimizada para garantir o bom desempenho da aplicação. A modelagem incluirá tabelas que armazenem informações de cards, usuários, projetos, histórico de movimentações e outras entidades necessárias para o funcionamento do sistema. A modelagem deverá ser validada pela equipe de desenvolvimento e otimizada para consultas rápidas e eficientes.
+=======
+O banco de dados do sistema deverá ser modelado de forma eficiente e otimizada para garantir o bom desempenho da aplicação. A modelagem incluirá tabelas que armazenem informações de cards, usuários, projetos, histórico de movimentações e outras entidades necessárias para o funcionamento do sistema. A modelagem deverá ser validada pela equipe de desenvolvimento e otimizada para consultas rápidas e eficientes.
+
+---
+
+## 4. Rastreabilidade de Requisitos e Ferramentas
+
+A seguir, mostramos o fluxo que utilizamos para garantir rastreabilidade dos requisitos, desde o levantamento das necessidades até a entrega no código, com apoio de ferramentas que centralizam e conectam as etapas.
+
+---
+
+### 1. User Stories  
+Iniciamos com reuniões com a Youtan para entender seus problemas reais. A partir disso, elaboramos **User Stories** no formato:  
+> *"Como [usuário], quero [objetivo] para [benefício]."*  
+Essas histórias nos ajudaram a compreender e registrar as necessidades dos usuários.
+
+---
+
+### 2. Requisitos  
+Cada User Story foi analisada e convertida em **Requisitos Funcionais e Não Funcionais**, descrevendo o que o sistema deve fazer para atender às necessidades levantadas.
+
+---
+
+### 3. Backlog  
+Organizamos todas as User Stories e Requisitos em um **Product Backlog**, priorizando com base na importância e viabilidade. O backlog serve como guia para o planejamento e execução do projeto.
+
+---
+
+### 4. Jira  
+Utilizamos o **Jira**, ferramenta da Atlassian, para gerenciar todas as etapas do projeto de forma estruturada e colaborativa. Ele nos permite organizar e visualizar o progresso por meio de boards e sprints, além de priorizar e distribuir tarefas entre os membros da equipe.
+No Jira:
+- **Tasks** são vinculadas a **User Stories**.
+- **User Stories** estão ligadas aos **Requisitos**.  
+Esse encadeamento garante que todo o desenvolvimento tenha um propósito claro e rastreável.
+
+---
+
+### 5. Integração com GitHub  
+Integramos o Jira com o **GitHub** para conectar tarefas ao código.  
+Usamos:
+- **Branches nomeadas com IDs das tarefas** (ex: `SCRUM-41-implementar-funcionalidade-a`),
+- **Commits com referências ao Jira** (ex: `SCRUM-41-fix: corrige validação de formulário`).  
+Assim, cada entrega é automaticamente rastreável até sua origem.
+
+---
+
+### 6. Rastreamento por Tasks  
+As **Tasks** funcionam como unidades de trabalho conectadas às User Stories. Nenhuma task é criada fora do escopo definido no backlog. Toda alteração no código está ligada a uma Task, que por sua vez está associada ao User Story que motivou sua criação.
+
+---
+
+### 7. Garantia de Rastreabilidade  
+Esse processo nos permite:
+- Acompanhar o desenvolvimento desde a necessidade até a entrega,
+- Manter alinhamento com o que o cliente espera,
+- Facilitar a validação e auditoria por qualquer membro do time ou stakeholder.
+
+---
+
+Com o objetivo de facilitar a compreensão, o fluxo do processo é ilustrado no diagrama abaixo.
+
+![image](https://github.com/user-attachments/assets/c0f4b93a-7bf8-43ea-852b-acbacec6fbbf)
+
+
+## Relação entre Requisitos e User Stories
+
+Para facilitar o acompanhamento do progresso, a tabela a seguir mostra como cada Requisito está relacionado à User Story correspondente. Isso permite entender facilmente como os Requisitos são atendidos pelas User Stories, seguindo a organização do Jira.
+
+| R \ US | US01 | US02 | US03 | US04 | US05 | US06 | US07 | US08 | US09 | US10 | US11 | US12 |
+|--------|------|------|------|------|------|------|------|------|------|------|------|------|
+| R1     |  X   |      |      |      |      |      |      |      |      |      |      |      |
+| R2     |      |  X   |      |      |      |      |      |      |      |      |      |      |
+| R3     |      |  X   |      |      |      |      |      |      |      |      |      |      |
+| R4     |      |      |  X   |      |      |      |      |      |      |      |      |      |
+| R5     |      |      |      |  X   |      |      |      |      |      |      |      |      |
+| R6     |      |      |      |      |  X   |  X   |      |      |      |      |      |      |
+| R7     |      |      |      |      |  X   |      |      |  X   |      |      |      |      |
+| R8     |      |      |      |      |      |      |  X   |  X   |  X   |  X   |      |      |
+| R9     |      |      |      |      |      |      |      |      |      |      |  X   |      |
+| R10    |      |      |      |      |      |      |      |      |      |      |      |  X   |
+| R11    |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |
+| R12    |  X   |  X   |  X   |  X   |  X   |  X   |      |  X   |      |  X   |  X   |      |
+| R13    |  X   |  X   |  X   |  X   |  X   |  X   |      |  X   |      |  X   |  X   |      |
+| R14    |      |      |      |      |      |      |      |      |      |      |      |      |
+
+
+Esse processo de organização permite que o desenvolvimento seja claro e bem direcionado, com **Requisitos**, **User Stories** e **Tasks** alinhados e rastreados de forma eficiente no **Jira**.
+>>>>>>> 7630bc5fb9f836d6586a0db3ad65d04152a5031f
