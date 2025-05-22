@@ -3,7 +3,7 @@
 ---
 
 ## 1. Introdução
-Este documento tem como objetivo apresentar a rastreabilidade dos requisitos funcionais e não funcionais do sistema Stratify. O processo de rastreabilidade visa garantir que todos os requisitos levantados durante a fase de levantamento foram devidamente compreendidos, documentados e implementados conforme esperado.
+Este documento tem como objetivo apresentar a rastreabilidade dos requisitos funcionais e não funcionais do sistema Stratify, e está elaborado com foco na rastreabilidade de requisitos voltada ao produto, garantindo que todas as funcionalidades esperadas sejam devidamente compreendidas, documentadas e implementadas.
 
 
 ## 2. Objetivo do Sistema
@@ -11,6 +11,8 @@ O sistema Stratify foi idealizado com o objetivo de oferecer uma plataforma de a
 
 
 ## 3. Justificativas dos Requisitos
+
+As justificativas explicam por que cada requisito foi incluído no sistema e sua importância para os usuários e demais stakeholders. Elas asseguram que as funcionalidades atendam às necessidades reais do projeto, promovendo a qualidade e o alinhamento do Stratify com os objetivos do negócio. Dessa forma, contribuem para o sucesso da solução, facilitando o entendimento e a priorização durante o desenvolvimento.
 
 ### R1 – Quantidade de cards por etiqueta  
 *Descrição:* O sistema deverá exibir a quantidade de cards associados a cada etiqueta cadastrada no kanban. Essa informação deverá ser apresentada de forma visual, como tabela, e permitir filtragem por projeto e período. As etiquetas devem ser sincronizadas com a ferramenta integrada (ex: Taiga) para garantir a consistência dos dados.
