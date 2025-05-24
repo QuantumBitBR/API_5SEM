@@ -38,8 +38,9 @@ Além disso, a diferenciação de acesso por níveis de usuário não é nativam
 - <a href="https://github.com/QuantumBitBR/API_5SEM/wiki/DevOps-%E2%80%90-Database">Devops - Database</a>
 - <a href="https://github.com/QuantumBitBR/API_5SEM/wiki/DevOps-%E2%80%90-Testes-Unit%C3%A1rios">Devops - Testes Unitários</a>
 - <a href="https://github.com/QuantumBitBR/API_5SEM/wiki/DevOps-%E2%80%90-Documenta%C3%A7%C3%A3o">Devops - Documentação</a>
-- <a href="https://github.com/QuantumBitBR/API_5SEM/wiki/DevOps-%E2%80%90-Continuous-Integration">Devops - Continuous Integration</a>
-
+- <a href="https://github.com/QuantumBitBR/API_5SEM/wiki/DevOps--%E2%80%90-Quality-Assurence">Devops - Quality Assurence</a>
+- <a href="https://github.com/QuantumBitBR/API_5SEM/wiki/Devops-%E2%80%90-Deploy">Devops - Deploy</a>
+- <a href="https://github.com/QuantumBitBR/API_5SEM/wiki/DevOps-%E2%80%90-Continuos-Integration">Devops - Continuous Integration</a>
 
 <span id="requisitos"> 
 
@@ -64,6 +65,7 @@ RNF01 | Documentação da API | A API desenvolvida para integração com sistema
 RNF02 | Responsividade | A aplicação deverá funcionar corretamente em diferentes resoluções e dispositivos (desktop, e smartphones). Deve seguir princípios de design responsivo, garantindo boa usabilidade mesmo em telas reduzidas. Frameworks como Bootstrap, Tailwind ou CSS Grid/Flexbox podem ser utilizados para esse fim.
 RNF03 | Manual do Usuário | Deve ser disponibilizado um manual do usuário, em formato digital (PDF ou online/Readme), contendo instruções passo a passo sobre como acessar o sistema, interpretar os indicadores, filtrar dados, exportar relatórios e alterar configurações. O manual deve ser claro, objetivo e incluir imagens ilustrativas.
 RNF04 | Modelagem do Banco de Dados | O sistema deverá contar com uma modelagem de banco de dados relacional otimizada, garantindo integridade referencial, desempenho nas consultas e escalabilidade. A modelagem deverá considerar normalização, chaves estrangeiras, índices e histórico de movimentações dos cards para cálculo de indicadores como tempo de execução e retrabalho.
+RNF05 | DevOps | O sistema deve utilizar ferramentas de devops sendo: integração contínua (CI) com testes automatizados, controle de versão do banco de dados e documentação atualizada. Deve haver rastreamento de requisitos e validação por QA. 
 </details>
 
 
@@ -101,7 +103,7 @@ RNF04 | Modelagem do Banco de Dados | O sistema deverá contar com uma modelagem
 |-----|-----|
 | 01 | <a href="https://github.com/QuantumBitBR/API_5SEM/wiki/Sprint-01" >Clique aqui</a>
 | 02 | <a href="https://github.com/QuantumBitBR/API_5SEM/wiki/Sprint-02" >Clique aqui</a>
-
+| 02 | <a href="https://github.com/QuantumBitBR/API_5SEM/wiki/Sprint-03" >Clique aqui</a>
 
 
 <span id="cronograma">
@@ -123,7 +125,7 @@ Feira de Soluções| 17/06/2025 | -------------
 | Nome | Função | Networking | Identificação |
 | -----| ---------| ----------------| ---------|
 André Filipe | Developer | <a href="https://github.com/AndreMeneses0103"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a><a href="https://www.linkedin.com/in/andre-meneses-dev/"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a> | <a href="" ><img src="https://github.com/TechHorizonBR/API_3SEM/assets/89109574/ca09a732-b248-41dc-ab7c-145822ffd74b" width="60"></a> |
-Cainan Thomas | Developer | <a href="https://github.com/Kainanthyz"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a><a href="https://www.linkedin.com/in/cainan-santos-70938094/"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>| <a href="" ><img src="https://media.licdn.com/dms/image/v2/D4D03AQH4_cl23_Fzug/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1715111667286?e=1746662400&v=beta&t=XHaWyUcdBckaXsmGGGBIbvMhzgH8qz6dNQR5wtoxteo" width="60"></a>
+Cainan Thomas | Developer | <a href="https://github.com/Kainanthyz"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a><a href="https://www.linkedin.com/in/cainan-santos-70938094/"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>| <a href="" ><img src="https://media.licdn.com/dms/image/v2/D4D03AQH4_cl23_Fzug/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1715111667286?e=1753315200&v=beta&t=B_w6FU-E-t8aHSJfvcJq8VMQnkS6uLYgC0dUngPl0-A" width="60"></a>
 Caio Sousa | Developer | <a href="https://github.com/caio-sousafatec"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a><a href="https://www.linkedin.com/in/caiomsousa01/"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a> | <img src="https://avatars.githubusercontent.com/u/111454312?v=4" width="60" > |
 Gabriel Mota | Developer | <a href="https://github.com/gabmota8"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a><a href="https://www.linkedin.com/in/gabriel-mota-4a0816a0/"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a> |<img src="https://avatars.githubusercontent.com/u/44507787?v=4" width="60">|
 Gilvane Amaro | Scrum Master | <a href="https://github.com/gilvaneamaro"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white5" alt="GitHub"></a> <a href="https://www.linkedin.com/in/gilvane-amaro/"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a> |<img src="https://avatars.githubusercontent.com/u/121205315?v=4" width="60">|
