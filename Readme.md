@@ -38,6 +38,8 @@ Além disso, a diferenciação de acesso por níveis de usuário não é nativam
 - <a href="https://github.com/QuantumBitBR/API_5SEM/wiki/DevOps-%E2%80%90-Database">Devops - Database</a>
 - <a href="https://github.com/QuantumBitBR/API_5SEM/wiki/DevOps-%E2%80%90-Testes-Unit%C3%A1rios">Devops - Testes Unitários</a>
 - <a href="https://github.com/QuantumBitBR/API_5SEM/wiki/DevOps-%E2%80%90-Documenta%C3%A7%C3%A3o">Devops - Documentação</a>
+- <a href="https://github.com/QuantumBitBR/API_5SEM/wiki/DevOps-%E2%80%90-Continuous-Integration">Devops - Continuous Integration</a>
+
 
 <span id="requisitos"> 
 
