@@ -137,3 +137,12 @@ As justificativas explicam por que cada requisito foi incluído no sistema e sua
 *Stakeholders:*: Equipe de desenvolvimento e DBAs.
 
 *Justificativa:*: Garante desempenho, escalabilidade, integridade e facilidade de manutenção conforme o sistema cresce.
+
+---
+
+### R15 - Implementação de DevOps
+*Descrição:* O sistema deve contemplar práticas completas de DevOps incluindo versionamento e gerenciamento de Banco de Dados, rastreabilidade de requisitos integrada ao ciclo de desenvolvimento, deploy automatizado, processos de Quality Assurance (QA), execução de testes unitários e de integração, geração de documentação da API e do sistema, além de Integração Contínua (CI) com pipelines automatizadas.
+
+*Stakeholders:*: Equipe de desenvolvimento, analistas de qualidade e Product Owner.
+
+*Justificativa:*: O DevOps otimiza o fluxo de desenvolvimento através da automação de processos, garantindo entregas mais rápidas e confiáveis. Reduz erros operacionais e proporciona feedback imediato, permitindo que os desenvolvedores se concentrem na criação de funcionalidades estratégicas. Mantém a rastreabilidade completa desde o código até a produção, assegurando alinhamento com os requisitos do projeto.
